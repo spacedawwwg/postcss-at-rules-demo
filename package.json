@@ -1,0 +1,19 @@
+{
+  "name": "postcss-at-rules-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss input.css -o output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "postcss": "^8.2.8",
+    "postcss-at-rules-variables": "^0.2.1",
+    "postcss-cli": "^8.3.1",
+    "postcss-import": "^14.0.0"
+  }
+}

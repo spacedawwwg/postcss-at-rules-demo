@@ -1,0 +1,8 @@
+:root {
+  --original-var: 4px;
+  --nested-var: calc(2 * var(--original-var));
+}
+
+.class-name {
+  @mixin mixinName calc(2 * 4px);
+}

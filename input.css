@@ -1,0 +1,5 @@
+@import './root.css';
+
+.class-name {
+  @mixin mixinName var(--nested-var);
+}
