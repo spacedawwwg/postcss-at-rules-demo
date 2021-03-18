@@ -1,5 +1,3 @@
 @import './root.css';
-
-.class-name {
-  @mixin mixinName var(--nested-var);
-}
+@import './foo.css';
+@import './bar.css';
